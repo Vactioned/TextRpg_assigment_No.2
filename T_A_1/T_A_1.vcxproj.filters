@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\System_h">
+      <UniqueIdentifier>{4a39af30-d43c-49d1-b83d-77c1225ce5fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PlayerClasses_h">
+      <UniqueIdentifier>{609ddfbb-bec5-4207-90ca-4f2cfac8cb01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System_s">
+      <UniqueIdentifier>{3a346bb3-4f0a-42ec-b816-d8b95d246811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PlayerClass_s">
+      <UniqueIdentifier>{27c3876b-2c4e-4d72-9a19-ccda532d8436}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Archer.cpp">
+      <Filter>Source Files\PlayerClass_s</Filter>
+    </ClCompile>
+    <ClCompile Include="Magician.cpp">
+      <Filter>Source Files\PlayerClass_s</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\PlayerClass_s</Filter>
+    </ClCompile>
+    <ClCompile Include="Theif.cpp">
+      <Filter>Source Files\PlayerClass_s</Filter>
+    </ClCompile>
+    <ClCompile Include="Warrior.cpp">
+      <Filter>Source Files\PlayerClass_s</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle.cpp">
+      <Filter>Source Files\System_s</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Source Files\System_s</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI.cpp">
+      <Filter>Source Files\System_s</Filter>
+    </ClCompile>
+    <ClCompile Include="AlchemyWorkshop.cpp">
+      <Filter>Source Files\System_s</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Monster.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Archer.h">
+      <Filter>Header Files\PlayerClasses_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\PlayerClasses_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Thief.h">
+      <Filter>Header Files\PlayerClasses_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Warrior.h">
+      <Filter>Header Files\PlayerClasses_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Magician.h">
+      <Filter>Header Files\PlayerClasses_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle.h">
+      <Filter>Header Files\System_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Header Files\System_h</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI.h">
+      <Filter>Header Files\System_h</Filter>
+    </ClInclude>
+    <ClInclude Include="AlchemyWorkshop.h">
+      <Filter>Header Files\System_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Potionrecp.h">
+      <Filter>Header Files\System_h</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerClasses.h">
+      <Filter>Header Files\PlayerClasses_h</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Header Files\System_h</Filter>
+    </ClInclude>
+    <ClInclude Include="MyInventory.h">
+      <Filter>Header Files\System_h</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
